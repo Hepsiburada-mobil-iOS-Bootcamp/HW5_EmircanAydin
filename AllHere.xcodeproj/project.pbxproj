@@ -14,6 +14,7 @@
 		90B2F7C6272064B600726A89 /* AllHereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7C5272064B600726A89 /* AllHereTests.swift */; };
 		90B2F7D0272064B600726A89 /* AllHereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7CF272064B600726A89 /* AllHereUITests.swift */; };
 		90B2F7D2272064B600726A89 /* AllHereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7D1272064B600726A89 /* AllHereUITestsLaunchTests.swift */; };
+		90B2F7E02720737F00726A89 /* BaseComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 90B2F7DF2720737F00726A89 /* BaseComponents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B2F7E02720737F00726A89 /* BaseComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +139,9 @@
 			dependencies = (
 			);
 			name = AllHere;
+			packageProductDependencies = (
+				90B2F7DF2720737F00726A89 /* BaseComponents */,
+			);
 			productName = AllHere;
 			productReference = 90B2F7AB272064AE00726A89 /* AllHere.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 90B2F7A2272064AE00726A89;
+			packageReferences = (
+				90B2F7DE2720737F00726A89 /* XCRemoteSwiftPackageReference "BaseComponents" */,
+			);
 			productRefGroup = 90B2F7AC272064AE00726A89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -606,6 +614,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90B2F7DE2720737F00726A89 /* XCRemoteSwiftPackageReference "BaseComponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darkbringer1/BaseComponents.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90B2F7DF2720737F00726A89 /* BaseComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90B2F7DE2720737F00726A89 /* XCRemoteSwiftPackageReference "BaseComponents" */;
+			productName = BaseComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90B2F7A3272064AE00726A89 /* Project object */;
 }
