@@ -42,6 +42,7 @@
 		9098F2802722F5F800B658E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F27D2722F5F800B658E6 /* LoginViewController.swift */; };
 		9098F2842722F67300B658E6 /* MainTabBarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2822722F67300B658E6 /* MainTabBarBuilder.swift */; };
 		9098F2852722F67300B658E6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2832722F67300B658E6 /* MainTabBarController.swift */; };
+		9098F2872722F87000B658E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9098F2862722F87000B658E6 /* GoogleService-Info.plist */; };
 		90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7AE272064AE00726A89 /* AppDelegate.swift */; };
 		90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7B2272064AE00726A89 /* ViewController.swift */; };
 		90B2F7B8272064B500726A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B2F7B7272064B500726A89 /* Assets.xcassets */; };
@@ -131,6 +132,7 @@
 		9098F27D2722F5F800B658E6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9098F2822722F67300B658E6 /* MainTabBarBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarBuilder.swift; sourceTree = "<group>"; };
 		9098F2832722F67300B658E6 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9098F2862722F87000B658E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		90B2F7AB272064AE00726A89 /* AllHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B2F7AE272064AE00726A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B2F7B2272064AE00726A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 				90B2F7B7272064B500726A89 /* Assets.xcassets */,
 				90B2F7B9272064B500726A89 /* LaunchScreen.storyboard */,
 				90B2F7BC272064B500726A89 /* Info.plist */,
+				9098F2862722F87000B658E6 /* GoogleService-Info.plist */,
 			);
 			path = AllHere;
 			sourceTree = "<group>";
@@ -634,6 +637,7 @@
 				90B2F7FC272074D000726A89 /* Roboto-BoldItalic.ttf in Resources */,
 				90B2F7F9272074D000726A89 /* Roboto-Regular.ttf in Resources */,
 				90B2F7FB272074D000726A89 /* Roboto-ThinItalic.ttf in Resources */,
+				9098F2872722F87000B658E6 /* GoogleService-Info.plist in Resources */,
 				90B2F7FD272074D000726A89 /* Roboto-LightItalic.ttf in Resources */,
 				90B2F800272074D000726A89 /* Roboto-BlackItalic.ttf in Resources */,
 				90B2F7F8272074D000726A89 /* Roboto-Light.ttf in Resources */,

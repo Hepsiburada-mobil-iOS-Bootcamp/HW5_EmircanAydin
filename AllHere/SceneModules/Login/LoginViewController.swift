@@ -15,7 +15,7 @@ class LoginViewController:
     
     override func prepareViewControllerConfigurations() {
         super.prepareViewControllerConfigurations()
-        
+        view.backgroundColor = .white
         subscribeViewModelListeners()
         addAuthenticationView()
     }

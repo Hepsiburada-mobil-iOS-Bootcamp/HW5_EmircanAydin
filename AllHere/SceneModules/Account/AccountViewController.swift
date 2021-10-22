@@ -12,6 +12,12 @@ class AccountViewController: BaseViewController<AccountViewModel> {
     
     private var mainComponent: ItemListView!
     
+    override func prepareViewControllerConfigurations() {
+        super.prepareViewControllerConfigurations()
+        
+        appendMainComponent()
+        subscribeViewModelPublishers()
+    }
     
     // MARK: - Private Methods
     private func appendMainComponent() {
@@ -50,7 +56,7 @@ class AccountViewController: BaseViewController<AccountViewModel> {
     }
     
     private func userLoginStateHandler() {
-        
+        present(LoginViewBuilder.build(), animated: true, completion: nil)
     }
     
 }

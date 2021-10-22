@@ -22,6 +22,7 @@ class AccountViewModel {
     init(formatter: AccountViewDataProtocol, authenticationManager: AuthenticationManagerProtocol) {
         self.formatter = formatter
         self.authenticationManager = authenticationManager
+        subscribeAuthenticationManager()
     }
     
     func subscribeViewState(with completion: @escaping AccountViewState) {
