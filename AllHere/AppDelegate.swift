@@ -34,7 +34,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func fireMainView() {
+        let mainView = MainTabBarBuilder.build()
         
+        window?.rootViewController = mainView
+        window?.makeKeyAndVisible()
     }
 
 }
