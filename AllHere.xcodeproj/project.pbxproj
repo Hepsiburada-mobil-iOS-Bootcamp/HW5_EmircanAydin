@@ -35,6 +35,8 @@
 		9098F2652722E2A900B658E6 /* AccountViewDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2642722E2A900B658E6 /* AccountViewDataFormatter.swift */; };
 		9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2662722E2EC00B658E6 /* SFSymbolsHelper.swift */; };
 		9098F26A2722ECAA00B658E6 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2692722ECAA00B658E6 /* AccountViewModel.swift */; };
+		9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F26B2722EFAE00B658E6 /* AccountViewController.swift */; };
+		9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */; };
 		90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7AE272064AE00726A89 /* AppDelegate.swift */; };
 		90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7B2272064AE00726A89 /* ViewController.swift */; };
 		90B2F7B8272064B500726A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B2F7B7272064B500726A89 /* Assets.xcassets */; };
@@ -117,6 +119,8 @@
 		9098F2642722E2A900B658E6 /* AccountViewDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewDataFormatter.swift; sourceTree = "<group>"; };
 		9098F2662722E2EC00B658E6 /* SFSymbolsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsHelper.swift; sourceTree = "<group>"; };
 		9098F2692722ECAA00B658E6 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		9098F26B2722EFAE00B658E6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewBuilder.swift; sourceTree = "<group>"; };
 		90B2F7AB272064AE00726A89 /* AllHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B2F7AE272064AE00726A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B2F7B2272064AE00726A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -313,6 +317,8 @@
 				9098F2622722E27300B658E6 /* AccountViewDataProtocol.swift */,
 				9098F2642722E2A900B658E6 /* AccountViewDataFormatter.swift */,
 				9098F2692722ECAA00B658E6 /* AccountViewModel.swift */,
+				9098F26B2722EFAE00B658E6 /* AccountViewController.swift */,
+				9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -633,6 +639,7 @@
 				9098F2472722DEAB00B658E6 /* LabelPackComponent.swift in Sources */,
 				90B2F81D2720D1BF00726A89 /* MainViewBuilder.swift in Sources */,
 				9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */,
+				9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */,
 				9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */,
 				9098F24F2722DEAB00B658E6 /* TextFieldViewData.swift in Sources */,
 				90B2F806272074E500726A89 /* FontManager.swift in Sources */,
@@ -664,6 +671,7 @@
 				90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */,
 				9098F2442722DEAB00B658E6 /* EmailLoginViewData.swift in Sources */,
 				9098F2422722DEAB00B658E6 /* LoginAuthenticationView.swift in Sources */,
+				9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */,
 				9098F2462722DEAB00B658E6 /* LabelPackComponentData.swift in Sources */,
 				90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */,
 				90B2F8162720CF9B00726A89 /* AuthenticationRequest.swift in Sources */,
