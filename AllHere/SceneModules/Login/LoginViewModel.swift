@@ -27,7 +27,7 @@ class LoginViewModel {
     
     // MARK: - Private Methods
     private func fireSignIn() {
-        authenticationManager.signIn(with: SimpleAuthenticationRequest(email: "takasi@gmail.com", password: "123456"))
+        authenticationManager.signIn(with: AuthenticationRequest(email: "takasi@gmail.com", password: "123456"))
         loginViewBlock?(true)
     }
     

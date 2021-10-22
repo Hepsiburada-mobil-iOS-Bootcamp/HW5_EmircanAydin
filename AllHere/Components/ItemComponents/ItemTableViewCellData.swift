@@ -11,7 +11,7 @@ import BaseComponents
 
 class ItemTableViewCellData: GenericDataProtocol {
     
-    var type: GenericRowType {
+    var type: GenericRowType? {
         return cellAction
     }
     
