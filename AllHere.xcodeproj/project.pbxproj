@@ -37,6 +37,9 @@
 		9098F26A2722ECAA00B658E6 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2692722ECAA00B658E6 /* AccountViewModel.swift */; };
 		9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F26B2722EFAE00B658E6 /* AccountViewController.swift */; };
 		9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */; };
+		9098F27E2722F5F800B658E6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F27B2722F5F800B658E6 /* LoginViewModel.swift */; };
+		9098F27F2722F5F800B658E6 /* LoginViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F27C2722F5F800B658E6 /* LoginViewBuilder.swift */; };
+		9098F2802722F5F800B658E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F27D2722F5F800B658E6 /* LoginViewController.swift */; };
 		90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7AE272064AE00726A89 /* AppDelegate.swift */; };
 		90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7B2272064AE00726A89 /* ViewController.swift */; };
 		90B2F7B8272064B500726A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B2F7B7272064B500726A89 /* Assets.xcassets */; };
@@ -121,6 +124,9 @@
 		9098F2692722ECAA00B658E6 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		9098F26B2722EFAE00B658E6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewBuilder.swift; sourceTree = "<group>"; };
+		9098F27B2722F5F800B658E6 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9098F27C2722F5F800B658E6 /* LoginViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewBuilder.swift; sourceTree = "<group>"; };
+		9098F27D2722F5F800B658E6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		90B2F7AB272064AE00726A89 /* AllHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B2F7AE272064AE00726A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B2F7B2272064AE00726A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -323,6 +329,16 @@
 			path = Account;
 			sourceTree = "<group>";
 		};
+		9098F27A2722F5F800B658E6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9098F27B2722F5F800B658E6 /* LoginViewModel.swift */,
+				9098F27C2722F5F800B658E6 /* LoginViewBuilder.swift */,
+				9098F27D2722F5F800B658E6 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		90B2F7A2272064AE00726A89 = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +398,7 @@
 			children = (
 				9098F2612722E23600B658E6 /* Account */,
 				90B2F8192720D19200726A89 /* Main */,
+				9098F27A2722F5F800B658E6 /* Login */,
 				90B2F7E2272073F400726A89 /* Splash */,
 			);
 			path = SceneModules;
@@ -641,6 +658,7 @@
 				9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */,
 				9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */,
 				9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */,
+				9098F27E2722F5F800B658E6 /* LoginViewModel.swift in Sources */,
 				9098F24F2722DEAB00B658E6 /* TextFieldViewData.swift in Sources */,
 				90B2F806272074E500726A89 /* FontManager.swift in Sources */,
 				90B2F80A2720755E00726A89 /* BackgroundImages.swift in Sources */,
@@ -654,6 +672,7 @@
 				90B2F80C272075D100726A89 /* SplashViewBuilder.swift in Sources */,
 				9098F23E2722DEAB00B658E6 /* ActionButtonData.swift in Sources */,
 				90B2F8212720D24B00726A89 /* TabBarImages.swift in Sources */,
+				9098F27F2722F5F800B658E6 /* LoginViewBuilder.swift in Sources */,
 				9098F2512722DEAB00B658E6 /* HeaderViewData.swift in Sources */,
 				9098F23F2722DEAB00B658E6 /* ActionButton.swift in Sources */,
 				9098F26A2722ECAA00B658E6 /* AccountViewModel.swift in Sources */,
@@ -671,6 +690,7 @@
 				90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */,
 				9098F2442722DEAB00B658E6 /* EmailLoginViewData.swift in Sources */,
 				9098F2422722DEAB00B658E6 /* LoginAuthenticationView.swift in Sources */,
+				9098F2802722F5F800B658E6 /* LoginViewController.swift in Sources */,
 				9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */,
 				9098F2462722DEAB00B658E6 /* LabelPackComponentData.swift in Sources */,
 				90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */,
