@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9098F2712722F2A600B658E6 /* LoginViewDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2702722F2A600B658E6 /* LoginViewDataProtocol.swift */; };
+		9098F2732722F2E100B658E6 /* LoginViewDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2722722F2E100B658E6 /* LoginViewDataFormatter.swift */; };
+		9098F2752722F31200B658E6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2742722F31200B658E6 /* LoginViewModel.swift */; };
+		9098F2772722F3C300B658E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2762722F3C300B658E6 /* LoginViewController.swift */; };
+		9098F2792722F3F100B658E6 /* LoginViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2782722F3F100B658E6 /* LoginViewBuilder.swift */; };
 		90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7AE272064AE00726A89 /* AppDelegate.swift */; };
 		90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7B2272064AE00726A89 /* ViewController.swift */; };
 		90B2F7B8272064B500726A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B2F7B7272064B500726A89 /* Assets.xcassets */; };
@@ -61,6 +66,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9098F2702722F2A600B658E6 /* LoginViewDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewDataProtocol.swift; sourceTree = "<group>"; };
+		9098F2722722F2E100B658E6 /* LoginViewDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewDataFormatter.swift; sourceTree = "<group>"; };
+		9098F2742722F31200B658E6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9098F2762722F3C300B658E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9098F2782722F3F100B658E6 /* LoginViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewBuilder.swift; sourceTree = "<group>"; };
 		90B2F7AB272064AE00726A89 /* AllHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B2F7AE272064AE00726A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B2F7B2272064AE00726A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +136,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9098F26F2722F28600B658E6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2702722F2A600B658E6 /* LoginViewDataProtocol.swift */,
+				9098F2722722F2E100B658E6 /* LoginViewDataFormatter.swift */,
+				9098F2742722F31200B658E6 /* LoginViewModel.swift */,
+				9098F2762722F3C300B658E6 /* LoginViewController.swift */,
+				9098F2782722F3F100B658E6 /* LoginViewBuilder.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		90B2F7A2272064AE00726A89 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +203,7 @@
 		90B2F7E1272073EF00726A89 /* SceneModules */ = {
 			isa = PBXGroup;
 			children = (
+				9098F26F2722F28600B658E6 /* Login */,
 				90B2F8192720D19200726A89 /* Main */,
 				90B2F7E2272073F400726A89 /* Splash */,
 			);
@@ -431,16 +454,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9098F2772722F3C300B658E6 /* LoginViewController.swift in Sources */,
 				90B2F81D2720D1BF00726A89 /* MainViewBuilder.swift in Sources */,
 				90B2F806272074E500726A89 /* FontManager.swift in Sources */,
 				90B2F80A2720755E00726A89 /* BackgroundImages.swift in Sources */,
 				90B2F81E2720D1C000726A89 /* MainViewController.swift in Sources */,
+				9098F2792722F3F100B658E6 /* LoginViewBuilder.swift in Sources */,
 				90B2F80C272075D100726A89 /* SplashViewBuilder.swift in Sources */,
 				90B2F8212720D24B00726A89 /* TabBarImages.swift in Sources */,
 				90B2F81F2720D1C000726A89 /* MainViewModel.swift in Sources */,
 				90B2F8182720CFA800726A89 /* AuthenticationManager.swift in Sources */,
 				90B2F8142720CF7B00726A89 /* AuthenticationManagerProtocol.swift in Sources */,
+				9098F2732722F2E100B658E6 /* LoginViewDataFormatter.swift in Sources */,
+				9098F2752722F31200B658E6 /* LoginViewModel.swift in Sources */,
 				90B2F7E42720740100726A89 /* SplashViewModel.swift in Sources */,
+				9098F2712722F2A600B658E6 /* LoginViewDataProtocol.swift in Sources */,
 				90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */,
 				90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */,
 				90B2F8162720CF9B00726A89 /* AuthenticationRequest.swift in Sources */,
