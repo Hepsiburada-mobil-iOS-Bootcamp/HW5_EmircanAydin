@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */; };
+		9098F23E2722DEAB00B658E6 /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */; };
+		9098F23F2722DEAB00B658E6 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21D2722DEAA00B658E6 /* ActionButton.swift */; };
+		9098F2402722DEAB00B658E6 /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21E2722DEAA00B658E6 /* ActionButtonTheme.swift */; };
+		9098F2412722DEAB00B658E6 /* LoginAuthenticationViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2202722DEAA00B658E6 /* LoginAuthenticationViewData.swift */; };
+		9098F2422722DEAB00B658E6 /* LoginAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2212722DEAA00B658E6 /* LoginAuthenticationView.swift */; };
+		9098F2432722DEAB00B658E6 /* EmailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2232722DEAA00B658E6 /* EmailLoginView.swift */; };
+		9098F2442722DEAB00B658E6 /* EmailLoginViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2242722DEAA00B658E6 /* EmailLoginViewData.swift */; };
+		9098F2452722DEAB00B658E6 /* LabelDistributionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2262722DEAA00B658E6 /* LabelDistributionData.swift */; };
+		9098F2462722DEAB00B658E6 /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2272722DEAA00B658E6 /* LabelPackComponentData.swift */; };
+		9098F2472722DEAB00B658E6 /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2282722DEAA00B658E6 /* LabelPackComponent.swift */; };
+		9098F2482722DEAB00B658E6 /* ItemTableViewCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F22A2722DEAA00B658E6 /* ItemTableViewCellData.swift */; };
+		9098F2492722DEAB00B658E6 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F22B2722DEAA00B658E6 /* ItemTableViewCell.swift */; };
+		9098F24B2722DEAB00B658E6 /* ItemListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F22F2722DEAA00B658E6 /* ItemListViewData.swift */; };
+		9098F24C2722DEAB00B658E6 /* ItemListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2302722DEAA00B658E6 /* ItemListProtocol.swift */; };
+		9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2312722DEAA00B658E6 /* ItemListView.swift */; };
+		9098F24E2722DEAB00B658E6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2332722DEAA00B658E6 /* TextFieldView.swift */; };
+		9098F24F2722DEAB00B658E6 /* TextFieldViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2342722DEAB00B658E6 /* TextFieldViewData.swift */; };
+		9098F2502722DEAB00B658E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2362722DEAB00B658E6 /* HeaderView.swift */; };
+		9098F2512722DEAB00B658E6 /* HeaderViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2372722DEAB00B658E6 /* HeaderViewData.swift */; };
+		9098F2532722DEAB00B658E6 /* PageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F23B2722DEAB00B658E6 /* PageViewComponent.swift */; };
+		9098F2542722DEAB00B658E6 /* PageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F23C2722DEAB00B658E6 /* PageViewComponentData.swift */; };
+		9098F2582722DEB700B658E6 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2572722DEB700B658E6 /* ViewState.swift */; };
+		9098F2602722E02200B658E6 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F25F2722E02200B658E6 /* UIView+Extensions.swift */; };
+		9098F2632722E27300B658E6 /* AccountViewDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2622722E27300B658E6 /* AccountViewDataProtocol.swift */; };
+		9098F2652722E2A900B658E6 /* AccountViewDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2642722E2A900B658E6 /* AccountViewDataFormatter.swift */; };
+		9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2662722E2EC00B658E6 /* SFSymbolsHelper.swift */; };
+		9098F26A2722ECAA00B658E6 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F2692722ECAA00B658E6 /* AccountViewModel.swift */; };
+		9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F26B2722EFAE00B658E6 /* AccountViewController.swift */; };
+		9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */; };
 		90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7AE272064AE00726A89 /* AppDelegate.swift */; };
 		90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F7B2272064AE00726A89 /* ViewController.swift */; };
 		90B2F7B8272064B500726A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B2F7B7272064B500726A89 /* Assets.xcassets */; };
@@ -61,6 +91,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		9098F21D2722DEAA00B658E6 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		9098F21E2722DEAA00B658E6 /* ActionButtonTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		9098F2202722DEAA00B658E6 /* LoginAuthenticationViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAuthenticationViewData.swift; sourceTree = "<group>"; };
+		9098F2212722DEAA00B658E6 /* LoginAuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAuthenticationView.swift; sourceTree = "<group>"; };
+		9098F2232722DEAA00B658E6 /* EmailLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginView.swift; sourceTree = "<group>"; };
+		9098F2242722DEAA00B658E6 /* EmailLoginViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginViewData.swift; sourceTree = "<group>"; };
+		9098F2262722DEAA00B658E6 /* LabelDistributionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelDistributionData.swift; sourceTree = "<group>"; };
+		9098F2272722DEAA00B658E6 /* LabelPackComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
+		9098F2282722DEAA00B658E6 /* LabelPackComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		9098F22A2722DEAA00B658E6 /* ItemTableViewCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCellData.swift; sourceTree = "<group>"; };
+		9098F22B2722DEAA00B658E6 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		9098F22F2722DEAA00B658E6 /* ItemListViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewData.swift; sourceTree = "<group>"; };
+		9098F2302722DEAA00B658E6 /* ItemListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListProtocol.swift; sourceTree = "<group>"; };
+		9098F2312722DEAA00B658E6 /* ItemListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		9098F2332722DEAA00B658E6 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		9098F2342722DEAB00B658E6 /* TextFieldViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewData.swift; sourceTree = "<group>"; };
+		9098F2362722DEAB00B658E6 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9098F2372722DEAB00B658E6 /* HeaderViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewData.swift; sourceTree = "<group>"; };
+		9098F23B2722DEAB00B658E6 /* PageViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewComponent.swift; sourceTree = "<group>"; };
+		9098F23C2722DEAB00B658E6 /* PageViewComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewComponentData.swift; sourceTree = "<group>"; };
+		9098F2572722DEB700B658E6 /* ViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		9098F25F2722E02200B658E6 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9098F2622722E27300B658E6 /* AccountViewDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewDataProtocol.swift; sourceTree = "<group>"; };
+		9098F2642722E2A900B658E6 /* AccountViewDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewDataFormatter.swift; sourceTree = "<group>"; };
+		9098F2662722E2EC00B658E6 /* SFSymbolsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsHelper.swift; sourceTree = "<group>"; };
+		9098F2692722ECAA00B658E6 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		9098F26B2722EFAE00B658E6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewBuilder.swift; sourceTree = "<group>"; };
 		90B2F7AB272064AE00726A89 /* AllHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B2F7AE272064AE00726A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B2F7B2272064AE00726A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +186,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9098F2192722DEAA00B658E6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9098F21A2722DEAA00B658E6 /* ActionButtonComponent */,
+				9098F21F2722DEAA00B658E6 /* LoginAuthenticationComponent */,
+				9098F2222722DEAA00B658E6 /* EmailLoginComponent */,
+				9098F2252722DEAA00B658E6 /* LabelPackComponent */,
+				9098F2292722DEAA00B658E6 /* ItemComponents */,
+				9098F22E2722DEAA00B658E6 /* ItemListViewComponents */,
+				9098F2322722DEAA00B658E6 /* TextFieldComponent */,
+				9098F2352722DEAB00B658E6 /* HeaderViewComponent */,
+				9098F23A2722DEAB00B658E6 /* PageViewComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9098F21A2722DEAA00B658E6 /* ActionButtonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */,
+				9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */,
+				9098F21D2722DEAA00B658E6 /* ActionButton.swift */,
+				9098F21E2722DEAA00B658E6 /* ActionButtonTheme.swift */,
+			);
+			path = ActionButtonComponent;
+			sourceTree = "<group>";
+		};
+		9098F21F2722DEAA00B658E6 /* LoginAuthenticationComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2202722DEAA00B658E6 /* LoginAuthenticationViewData.swift */,
+				9098F2212722DEAA00B658E6 /* LoginAuthenticationView.swift */,
+			);
+			path = LoginAuthenticationComponent;
+			sourceTree = "<group>";
+		};
+		9098F2222722DEAA00B658E6 /* EmailLoginComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2232722DEAA00B658E6 /* EmailLoginView.swift */,
+				9098F2242722DEAA00B658E6 /* EmailLoginViewData.swift */,
+			);
+			path = EmailLoginComponent;
+			sourceTree = "<group>";
+		};
+		9098F2252722DEAA00B658E6 /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2262722DEAA00B658E6 /* LabelDistributionData.swift */,
+				9098F2272722DEAA00B658E6 /* LabelPackComponentData.swift */,
+				9098F2282722DEAA00B658E6 /* LabelPackComponent.swift */,
+			);
+			path = LabelPackComponent;
+			sourceTree = "<group>";
+		};
+		9098F2292722DEAA00B658E6 /* ItemComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9098F22A2722DEAA00B658E6 /* ItemTableViewCellData.swift */,
+				9098F22B2722DEAA00B658E6 /* ItemTableViewCell.swift */,
+			);
+			path = ItemComponents;
+			sourceTree = "<group>";
+		};
+		9098F22E2722DEAA00B658E6 /* ItemListViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9098F22F2722DEAA00B658E6 /* ItemListViewData.swift */,
+				9098F2302722DEAA00B658E6 /* ItemListProtocol.swift */,
+				9098F2312722DEAA00B658E6 /* ItemListView.swift */,
+			);
+			path = ItemListViewComponents;
+			sourceTree = "<group>";
+		};
+		9098F2322722DEAA00B658E6 /* TextFieldComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2332722DEAA00B658E6 /* TextFieldView.swift */,
+				9098F2342722DEAB00B658E6 /* TextFieldViewData.swift */,
+			);
+			path = TextFieldComponent;
+			sourceTree = "<group>";
+		};
+		9098F2352722DEAB00B658E6 /* HeaderViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2362722DEAB00B658E6 /* HeaderView.swift */,
+				9098F2372722DEAB00B658E6 /* HeaderViewData.swift */,
+			);
+			path = HeaderViewComponent;
+			sourceTree = "<group>";
+		};
+		9098F23A2722DEAB00B658E6 /* PageViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9098F23B2722DEAB00B658E6 /* PageViewComponent.swift */,
+				9098F23C2722DEAB00B658E6 /* PageViewComponentData.swift */,
+			);
+			path = PageViewComponent;
+			sourceTree = "<group>";
+		};
+		9098F2552722DEB700B658E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2562722DEB700B658E6 /* StateManagements */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9098F2562722DEB700B658E6 /* StateManagements */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2572722DEB700B658E6 /* ViewState.swift */,
+			);
+			path = StateManagements;
+			sourceTree = "<group>";
+		};
+		9098F25E2722E01200B658E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9098F25F2722E02200B658E6 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9098F2612722E23600B658E6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				9098F2622722E27300B658E6 /* AccountViewDataProtocol.swift */,
+				9098F2642722E2A900B658E6 /* AccountViewDataFormatter.swift */,
+				9098F2692722ECAA00B658E6 /* AccountViewModel.swift */,
+				9098F26B2722EFAE00B658E6 /* AccountViewController.swift */,
+				9098F26D2722F18700B658E6 /* AccountViewBuilder.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		90B2F7A2272064AE00726A89 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +346,8 @@
 		90B2F7AD272064AE00726A89 /* AllHere */ = {
 			isa = PBXGroup;
 			children = (
+				9098F2552722DEB700B658E6 /* Models */,
+				9098F2192722DEAA00B658E6 /* Components */,
 				90B2F8102720CF5000726A89 /* Managers */,
 				90B2F7E7272074BF00726A89 /* Utilities */,
 				90B2F7E1272073EF00726A89 /* SceneModules */,
@@ -181,6 +380,7 @@
 		90B2F7E1272073EF00726A89 /* SceneModules */ = {
 			isa = PBXGroup;
 			children = (
+				9098F2612722E23600B658E6 /* Account */,
 				90B2F8192720D19200726A89 /* Main */,
 				90B2F7E2272073F400726A89 /* Splash */,
 			);
@@ -200,6 +400,7 @@
 		90B2F7E7272074BF00726A89 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9098F25E2722E01200B658E6 /* Extensions */,
 				90B2F8072720754500726A89 /* AssetHelpers */,
 				90B2F7E8272074C500726A89 /* FontManagers */,
 			);
@@ -246,6 +447,7 @@
 		90B2F8072720754500726A89 /* AssetHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				9098F2662722E2EC00B658E6 /* SFSymbolsHelper.swift */,
 				90B2F8202720D24B00726A89 /* TabBarImages.swift */,
 				90B2F8092720755E00726A89 /* BackgroundImages.swift */,
 			);
@@ -431,19 +633,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9098F2432722DEAB00B658E6 /* EmailLoginView.swift in Sources */,
+				9098F2532722DEAB00B658E6 /* PageViewComponent.swift in Sources */,
+				9098F2492722DEAB00B658E6 /* ItemTableViewCell.swift in Sources */,
+				9098F2472722DEAB00B658E6 /* LabelPackComponent.swift in Sources */,
 				90B2F81D2720D1BF00726A89 /* MainViewBuilder.swift in Sources */,
+				9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */,
+				9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */,
+				9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */,
+				9098F24F2722DEAB00B658E6 /* TextFieldViewData.swift in Sources */,
 				90B2F806272074E500726A89 /* FontManager.swift in Sources */,
 				90B2F80A2720755E00726A89 /* BackgroundImages.swift in Sources */,
 				90B2F81E2720D1C000726A89 /* MainViewController.swift in Sources */,
+				9098F24B2722DEAB00B658E6 /* ItemListViewData.swift in Sources */,
+				9098F2482722DEAB00B658E6 /* ItemTableViewCellData.swift in Sources */,
+				9098F2632722E27300B658E6 /* AccountViewDataProtocol.swift in Sources */,
+				9098F2602722E02200B658E6 /* UIView+Extensions.swift in Sources */,
+				9098F2412722DEAB00B658E6 /* LoginAuthenticationViewData.swift in Sources */,
+				9098F2542722DEAB00B658E6 /* PageViewComponentData.swift in Sources */,
 				90B2F80C272075D100726A89 /* SplashViewBuilder.swift in Sources */,
+				9098F23E2722DEAB00B658E6 /* ActionButtonData.swift in Sources */,
 				90B2F8212720D24B00726A89 /* TabBarImages.swift in Sources */,
+				9098F2512722DEAB00B658E6 /* HeaderViewData.swift in Sources */,
+				9098F23F2722DEAB00B658E6 /* ActionButton.swift in Sources */,
+				9098F26A2722ECAA00B658E6 /* AccountViewModel.swift in Sources */,
 				90B2F81F2720D1C000726A89 /* MainViewModel.swift in Sources */,
 				90B2F8182720CFA800726A89 /* AuthenticationManager.swift in Sources */,
+				9098F2652722E2A900B658E6 /* AccountViewDataFormatter.swift in Sources */,
+				9098F24C2722DEAB00B658E6 /* ItemListProtocol.swift in Sources */,
+				9098F24E2722DEAB00B658E6 /* TextFieldView.swift in Sources */,
+				9098F2582722DEB700B658E6 /* ViewState.swift in Sources */,
+				9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */,
 				90B2F8142720CF7B00726A89 /* AuthenticationManagerProtocol.swift in Sources */,
+				9098F2502722DEAB00B658E6 /* HeaderView.swift in Sources */,
 				90B2F7E42720740100726A89 /* SplashViewModel.swift in Sources */,
+				9098F2402722DEAB00B658E6 /* ActionButtonTheme.swift in Sources */,
 				90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */,
+				9098F2442722DEAB00B658E6 /* EmailLoginViewData.swift in Sources */,
+				9098F2422722DEAB00B658E6 /* LoginAuthenticationView.swift in Sources */,
+				9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */,
+				9098F2462722DEAB00B658E6 /* LabelPackComponentData.swift in Sources */,
 				90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */,
 				90B2F8162720CF9B00726A89 /* AuthenticationRequest.swift in Sources */,
+				9098F2452722DEAB00B658E6 /* LabelDistributionData.swift in Sources */,
 				90B2F7E62720747F00726A89 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
