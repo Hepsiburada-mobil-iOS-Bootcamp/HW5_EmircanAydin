@@ -11,17 +11,20 @@ class MainViewBuilder {
     
     class func build() -> UIViewController {
         
-        let viewModel = MainViewModel(authenticationManager: AuthenticationManager.shared)
+        let manager = CharacterListOperationsManager.shared
+        let formatter = MainViewDataFormatter()
+        let viewModel = MainViewModel(authenticationManager: AuthenticationManager.shared, formatter: formatter, operationManager: manager)
         let viewController = MainViewController(viewModel: viewModel)
         let navigationViewController = UINavigationController(rootViewController: viewController)
-        viewController.title = "Main"
+        viewController.title = "Characters"
         viewController.tabBarItem.image = TabBarImages.home.value
         viewController.tabBarItem.selectedImage = TabBarImages.homeSelected.value
-        viewController.navigationController?.setNavigationBarHidden(true, animated: false)
+        viewController.navigationController?.setNavigationBarHidden(false, animated: false)
+        viewController.navigationController?.navigationBar.prefersLargeTitles = true
         
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .systemBackground
+        appearance.backgroundColor = RickAndMortyColor.blue.value
         viewController.navigationController?.navigationBar.standardAppearance = appearance;
         viewController.navigationController?.navigationBar.scrollEdgeAppearance = viewController.navigationController?.navigationBar.standardAppearance
         

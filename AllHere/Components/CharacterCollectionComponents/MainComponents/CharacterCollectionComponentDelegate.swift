@@ -15,4 +15,5 @@ protocol CharacterCollectionComponentDelegate: AnyObject {
     func getData(at index: Int) -> GenericDataProtocol?
     func getMoreData()
     func isLoadingCell(for index: Int) -> Bool
+    func askNumberOfItem(in section: Int) -> Int
 }

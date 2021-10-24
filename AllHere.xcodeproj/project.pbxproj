@@ -15,7 +15,6 @@
 		900088622725DB68005FEBAC /* CustomImageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088452725DB61005FEBAC /* CustomImageViewComponentData.swift */; };
 		900088632725DB68005FEBAC /* CustomImageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088462725DB61005FEBAC /* CustomImageViewComponent.swift */; };
 		900088642725DB68005FEBAC /* CustomImageLoadingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088472725DB61005FEBAC /* CustomImageLoadingType.swift */; };
-		900088652725DB68005FEBAC /* LoadingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884A2725DB61005FEBAC /* LoadingCellView.swift */; };
 		900088662725DB68005FEBAC /* CharacterSimpleRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884C2725DB65005FEBAC /* CharacterSimpleRowComponent.swift */; };
 		900088672725DB68005FEBAC /* CharacterSimpleRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884D2725DB65005FEBAC /* CharacterSimpleRowData.swift */; };
 		900088682725DB68005FEBAC /* CharacterCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884F2725DB66005FEBAC /* CharacterCardComponent.swift */; };
@@ -31,6 +30,14 @@
 		900088722725DB68005FEBAC /* CharacterHeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */; };
 		900088732725DB68005FEBAC /* CharacterHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */; };
 		900088752725DD87005FEBAC /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088742725DD87005FEBAC /* UICollectionView+Extensions.swift */; };
+		900088772725DE9B005FEBAC /* MainViewDataFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088762725DE9B005FEBAC /* MainViewDataFormatterProtocol.swift */; };
+		900088792725E1DE005FEBAC /* MainViewDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088782725E1DE005FEBAC /* MainViewDataFormatter.swift */; };
+		9000887B2725E2AA005FEBAC /* MainViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000887A2725E2AA005FEBAC /* MainViewState.swift */; };
+		900088802725E527005FEBAC /* CharacterListOperationsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000887F2725E527005FEBAC /* CharacterListOperationsProtocol.swift */; };
+		900088822725E543005FEBAC /* CharacterListOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088812725E543005FEBAC /* CharacterListOperationsManager.swift */; };
+		900088922725EDDF005FEBAC /* LoadingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088912725EDDF005FEBAC /* LoadingCellView.swift */; };
+		900088962725F491005FEBAC /* EmptyBackgroundViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088942725F490005FEBAC /* EmptyBackgroundViewData.swift */; };
+		900088972725F491005FEBAC /* EmptyBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088952725F490005FEBAC /* EmptyBackgroundView.swift */; };
 		9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */; };
 		9098F23E2722DEAB00B658E6 /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */; };
 		9098F23F2722DEAB00B658E6 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21D2722DEAA00B658E6 /* ActionButton.swift */; };
@@ -111,8 +118,6 @@
 		90E9FD3F2725CDFD0075307A /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD3E2725CDFD0075307A /* LottieViewController.swift */; };
 		90E9FD422725CE610075307A /* ApiCallListenerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD412725CE610075307A /* ApiCallListenerManager.swift */; };
 		90E9FD442725CEFB0075307A /* ApiManagerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD432725CEFB0075307A /* ApiManagerBuilder.swift */; };
-		90E9FD512725CF950075307A /* CharacterListOperationsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD472725CF940075307A /* CharacterListOperationsProtocol.swift */; };
-		90E9FD522725CF950075307A /* CharacterListOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD482725CF940075307A /* CharacterListOperationsManager.swift */; };
 		90E9FD532725CF950075307A /* CharacterRequestServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD4B2725CF950075307A /* CharacterRequestServiceProvider.swift */; };
 		90E9FD542725CF950075307A /* CharacterListRequestServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD4C2725CF950075307A /* CharacterListRequestServiceProvider.swift */; };
 		90E9FD552725CF950075307A /* RickAndMortyCharacterDataApiRemoteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FD4E2725CF950075307A /* RickAndMortyCharacterDataApiRemoteProtocol.swift */; };
@@ -154,7 +159,6 @@
 		900088452725DB61005FEBAC /* CustomImageViewComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentData.swift; sourceTree = "<group>"; };
 		900088462725DB61005FEBAC /* CustomImageViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponent.swift; sourceTree = "<group>"; };
 		900088472725DB61005FEBAC /* CustomImageLoadingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageLoadingType.swift; sourceTree = "<group>"; };
-		9000884A2725DB61005FEBAC /* LoadingCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCellView.swift; sourceTree = "<group>"; };
 		9000884C2725DB65005FEBAC /* CharacterSimpleRowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSimpleRowComponent.swift; sourceTree = "<group>"; };
 		9000884D2725DB65005FEBAC /* CharacterSimpleRowData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSimpleRowData.swift; sourceTree = "<group>"; };
 		9000884F2725DB66005FEBAC /* CharacterCardComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCardComponent.swift; sourceTree = "<group>"; };
@@ -170,6 +174,14 @@
 		9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterHeaderData.swift; sourceTree = "<group>"; };
 		900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterHeaderComponent.swift; sourceTree = "<group>"; };
 		900088742725DD87005FEBAC /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		900088762725DE9B005FEBAC /* MainViewDataFormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDataFormatterProtocol.swift; sourceTree = "<group>"; };
+		900088782725E1DE005FEBAC /* MainViewDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDataFormatter.swift; sourceTree = "<group>"; };
+		9000887A2725E2AA005FEBAC /* MainViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewState.swift; sourceTree = "<group>"; };
+		9000887F2725E527005FEBAC /* CharacterListOperationsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListOperationsProtocol.swift; sourceTree = "<group>"; };
+		900088812725E543005FEBAC /* CharacterListOperationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListOperationsManager.swift; sourceTree = "<group>"; };
+		900088912725EDDF005FEBAC /* LoadingCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCellView.swift; sourceTree = "<group>"; };
+		900088942725F490005FEBAC /* EmptyBackgroundViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyBackgroundViewData.swift; sourceTree = "<group>"; };
+		900088952725F490005FEBAC /* EmptyBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyBackgroundView.swift; sourceTree = "<group>"; };
 		9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
 		9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
 		9098F21D2722DEAA00B658E6 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
@@ -249,8 +261,6 @@
 		90E9FD3E2725CDFD0075307A /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		90E9FD412725CE610075307A /* ApiCallListenerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallListenerManager.swift; sourceTree = "<group>"; };
 		90E9FD432725CEFB0075307A /* ApiManagerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManagerBuilder.swift; sourceTree = "<group>"; };
-		90E9FD472725CF940075307A /* CharacterListOperationsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListOperationsProtocol.swift; sourceTree = "<group>"; };
-		90E9FD482725CF940075307A /* CharacterListOperationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListOperationsManager.swift; sourceTree = "<group>"; };
 		90E9FD4B2725CF950075307A /* CharacterRequestServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRequestServiceProvider.swift; sourceTree = "<group>"; };
 		90E9FD4C2725CF950075307A /* CharacterListRequestServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListRequestServiceProvider.swift; sourceTree = "<group>"; };
 		90E9FD4E2725CF950075307A /* RickAndMortyCharacterDataApiRemoteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RickAndMortyCharacterDataApiRemoteProtocol.swift; sourceTree = "<group>"; };
@@ -331,22 +341,6 @@
 			path = CustomImageViewComponent;
 			sourceTree = "<group>";
 		};
-		900088482725DB61005FEBAC /* LoadingViewComponents */ = {
-			isa = PBXGroup;
-			children = (
-				900088492725DB61005FEBAC /* CellLoadingComponent */,
-			);
-			path = LoadingViewComponents;
-			sourceTree = "<group>";
-		};
-		900088492725DB61005FEBAC /* CellLoadingComponent */ = {
-			isa = PBXGroup;
-			children = (
-				9000884A2725DB61005FEBAC /* LoadingCellView.swift */,
-			);
-			path = CellLoadingComponent;
-			sourceTree = "<group>";
-		};
 		9000884B2725DB65005FEBAC /* CharacterInfoComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,9 +413,44 @@
 			path = CharacterHeaderComponent;
 			sourceTree = "<group>";
 		};
+		9000887C2725E417005FEBAC /* CharacterListOperationsManager */ = {
+			isa = PBXGroup;
+			children = (
+				9000887F2725E527005FEBAC /* CharacterListOperationsProtocol.swift */,
+				900088812725E543005FEBAC /* CharacterListOperationsManager.swift */,
+			);
+			path = CharacterListOperationsManager;
+			sourceTree = "<group>";
+		};
+		9000888F2725EDDF005FEBAC /* LoadingViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				900088902725EDDF005FEBAC /* CellLoadingComponent */,
+			);
+			path = LoadingViewComponents;
+			sourceTree = "<group>";
+		};
+		900088902725EDDF005FEBAC /* CellLoadingComponent */ = {
+			isa = PBXGroup;
+			children = (
+				900088912725EDDF005FEBAC /* LoadingCellView.swift */,
+			);
+			path = CellLoadingComponent;
+			sourceTree = "<group>";
+		};
+		900088932725F490005FEBAC /* EmptyBackgroundComponent */ = {
+			isa = PBXGroup;
+			children = (
+				900088942725F490005FEBAC /* EmptyBackgroundViewData.swift */,
+				900088952725F490005FEBAC /* EmptyBackgroundView.swift */,
+			);
+			path = EmptyBackgroundComponent;
+			sourceTree = "<group>";
+		};
 		9098F2192722DEAA00B658E6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				900088932725F490005FEBAC /* EmptyBackgroundComponent */,
 				9000884E2725DB66005FEBAC /* CharacterCardComponent */,
 				900088512725DB67005FEBAC /* CharacterCollectionComponents */,
 				9000885E2725DB68005FEBAC /* CharacterHeaderComponent */,
@@ -429,7 +458,6 @@
 				900088582725DB67005FEBAC /* CharacterLabelPackComponent */,
 				9000885B2725DB68005FEBAC /* CharacterLocationComponent */,
 				900088432725DB61005FEBAC /* CustomImageViewComponent */,
-				900088482725DB61005FEBAC /* LoadingViewComponents */,
 				9098F21A2722DEAA00B658E6 /* ActionButtonComponent */,
 				9098F21F2722DEAA00B658E6 /* LoginAuthenticationComponent */,
 				9098F2222722DEAA00B658E6 /* EmailLoginComponent */,
@@ -439,6 +467,7 @@
 				9098F2322722DEAA00B658E6 /* TextFieldComponent */,
 				9098F2352722DEAB00B658E6 /* HeaderViewComponent */,
 				9098F23A2722DEAB00B658E6 /* PageViewComponent */,
+				9000888F2725EDDF005FEBAC /* LoadingViewComponents */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -614,7 +643,6 @@
 				90E9FD362725CDD70075307A /* Resources */,
 				9098F2552722DEB700B658E6 /* Models */,
 				90E9FD492725CF950075307A /* DataOperations */,
-				90E9FD452725CF940075307A /* Managers */,
 				9098F2192722DEAA00B658E6 /* Components */,
 				90B2F8102720CF5000726A89 /* Managers */,
 				90B2F7E7272074BF00726A89 /* Utilities */,
@@ -733,6 +761,7 @@
 		90B2F8102720CF5000726A89 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				9000887C2725E417005FEBAC /* CharacterListOperationsManager */,
 				90E9FD402725CE3E0075307A /* ApiManagerModules */,
 				90E9FD312725CDA30075307A /* LottieManager */,
 				90B2F8112720CF5700726A89 /* AuthenticationManager */,
@@ -756,6 +785,9 @@
 				90B2F81A2720D1BE00726A89 /* MainViewBuilder.swift */,
 				90B2F81B2720D1BF00726A89 /* MainViewController.swift */,
 				90B2F81C2720D1BF00726A89 /* MainViewModel.swift */,
+				900088762725DE9B005FEBAC /* MainViewDataFormatterProtocol.swift */,
+				900088782725E1DE005FEBAC /* MainViewDataFormatter.swift */,
+				9000887A2725E2AA005FEBAC /* MainViewState.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -809,24 +841,6 @@
 				90E9FD432725CEFB0075307A /* ApiManagerBuilder.swift */,
 			);
 			path = ApiManagerModules;
-			sourceTree = "<group>";
-		};
-		90E9FD452725CF940075307A /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				90E9FD462725CF940075307A /* CharacterListOperationsManager */,
-			);
-			name = Managers;
-			path = ../../RickAndMorty/RickAndMorty/Managers;
-			sourceTree = "<group>";
-		};
-		90E9FD462725CF940075307A /* CharacterListOperationsManager */ = {
-			isa = PBXGroup;
-			children = (
-				90E9FD472725CF940075307A /* CharacterListOperationsProtocol.swift */,
-				90E9FD482725CF940075307A /* CharacterListOperationsManager.swift */,
-			);
-			path = CharacterListOperationsManager;
 			sourceTree = "<group>";
 		};
 		90E9FD492725CF950075307A /* DataOperations */ = {
@@ -1101,16 +1115,15 @@
 				9000886B2725DB68005FEBAC /* CharacterCollectionViewData.swift in Sources */,
 				9000886C2725DB68005FEBAC /* CharacterCollectionView.swift in Sources */,
 				900088752725DD87005FEBAC /* UICollectionView+Extensions.swift in Sources */,
-				900088652725DB68005FEBAC /* LoadingCellView.swift in Sources */,
 				90B2F81D2720D1BF00726A89 /* MainViewBuilder.swift in Sources */,
 				9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */,
 				90E9FD7A2725CFE60075307A /* RMCharacterLocationModel.swift in Sources */,
 				90E9FD532725CF950075307A /* CharacterRequestServiceProvider.swift in Sources */,
 				90E9FD3B2725CDD70075307A /* AtomicValue.swift in Sources */,
 				90E9FD752725CFE60075307A /* CharacterListRequestModel.swift in Sources */,
-				90E9FD512725CF950075307A /* CharacterListOperationsProtocol.swift in Sources */,
 				900088672725DB68005FEBAC /* CharacterSimpleRowData.swift in Sources */,
 				9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */,
+				900088972725F491005FEBAC /* EmptyBackgroundView.swift in Sources */,
 				90E9FD782725CFE60075307A /* RMCharacterOriginModel.swift in Sources */,
 				900088692725DB68005FEBAC /* CharacterCardData.swift in Sources */,
 				9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */,
@@ -1124,6 +1137,7 @@
 				90E9FD422725CE610075307A /* ApiCallListenerManager.swift in Sources */,
 				900088402725D78F005FEBAC /* ImageCacheManager.swift in Sources */,
 				90E9FD562725CF950075307A /* RickAndMortyDataApiRemote.swift in Sources */,
+				900088802725E527005FEBAC /* CharacterListOperationsProtocol.swift in Sources */,
 				90B2F81E2720D1C000726A89 /* MainViewController.swift in Sources */,
 				9098F24B2722DEAB00B658E6 /* ItemListViewData.swift in Sources */,
 				9098F2482722DEAB00B658E6 /* ItemTableViewCellData.swift in Sources */,
@@ -1133,6 +1147,8 @@
 				9098F2602722E02200B658E6 /* UIView+Extensions.swift in Sources */,
 				90E9FD632725CFC00075307A /* Pagination.swift in Sources */,
 				900088622725DB68005FEBAC /* CustomImageViewComponentData.swift in Sources */,
+				900088962725F491005FEBAC /* EmptyBackgroundViewData.swift in Sources */,
+				900088922725EDDF005FEBAC /* LoadingCellView.swift in Sources */,
 				9098F2412722DEAB00B658E6 /* LoginAuthenticationViewData.swift in Sources */,
 				9098F2542722DEAB00B658E6 /* PageViewComponentData.swift in Sources */,
 				90E9FD342725CDB20075307A /* LottieManagerProtocol.swift in Sources */,
@@ -1156,13 +1172,15 @@
 				9098F2582722DEB700B658E6 /* ViewState.swift in Sources */,
 				90E9FD542725CF950075307A /* CharacterListRequestServiceProvider.swift in Sources */,
 				90E9FD3F2725CDFD0075307A /* LottieViewController.swift in Sources */,
+				900088822725E543005FEBAC /* CharacterListOperationsManager.swift in Sources */,
 				90E9FD772725CFE60075307A /* CharacterResponseModel.swift in Sources */,
-				90E9FD522725CF950075307A /* CharacterListOperationsManager.swift in Sources */,
 				900088722725DB68005FEBAC /* CharacterHeaderData.swift in Sources */,
 				9000886F2725DB68005FEBAC /* CharacterCardLabelPackData.swift in Sources */,
+				900088792725E1DE005FEBAC /* MainViewDataFormatter.swift in Sources */,
 				900088632725DB68005FEBAC /* CustomImageViewComponent.swift in Sources */,
 				900088712725DB68005FEBAC /* CharacterLocationData.swift in Sources */,
 				900088662725DB68005FEBAC /* CharacterSimpleRowComponent.swift in Sources */,
+				9000887B2725E2AA005FEBAC /* MainViewState.swift in Sources */,
 				9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */,
 				90B2F8142720CF7B00726A89 /* AuthenticationManagerProtocol.swift in Sources */,
 				90E9FD622725CFC00075307A /* LocationTitle.swift in Sources */,
@@ -1178,6 +1196,7 @@
 				9098F2422722DEAB00B658E6 /* LoginAuthenticationView.swift in Sources */,
 				9098F2802722F5F800B658E6 /* LoginViewController.swift in Sources */,
 				9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */,
+				900088772725DE9B005FEBAC /* MainViewDataFormatterProtocol.swift in Sources */,
 				9098F2462722DEAB00B658E6 /* LabelPackComponentData.swift in Sources */,
 				90B2F7AF272064AE00726A89 /* AppDelegate.swift in Sources */,
 				90B2F8162720CF9B00726A89 /* AuthenticationRequest.swift in Sources */,

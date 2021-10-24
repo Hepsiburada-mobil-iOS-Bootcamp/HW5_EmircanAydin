@@ -17,6 +17,8 @@ enum RickAndMortyColor: GenericValueProtocol {
             return #colorLiteral(red: 0.5803921569, green: 0.5803921569, blue: 0.5803921569, alpha: 1)
         case .characterCellBackground:
             return #colorLiteral(red: 0.2078431373, green: 0.2117647059, blue: 0.2352941176, alpha: 1)
+        case .blue:
+            return #colorLiteral(red: 0.07058823529, green: 0.6392156863, blue: 0.7725490196, alpha: 1)
         case .defaultBackground:
             return #colorLiteral(red: 0.1294117647, green: 0.1411764706, blue: 0.1647058824, alpha: 1)
         }
@@ -25,5 +27,6 @@ enum RickAndMortyColor: GenericValueProtocol {
     case subTitleGray
     case characterCellBackground
     case defaultBackground
+    case blue
     
 }

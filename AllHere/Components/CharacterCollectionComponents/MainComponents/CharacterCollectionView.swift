@@ -10,7 +10,7 @@ import BaseComponents
 
 class CharacterCollectionView: GenericBaseView<CharacterCollectionViewData> {
     
-    private weak var delegate: CharacterCollectionComponentDelegate?
+    weak var delegate: CharacterCollectionComponentDelegate?
     
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -31,9 +31,25 @@ class CharacterCollectionView: GenericBaseView<CharacterCollectionViewData> {
         return collection
     }()
     
+    private var emptyView: EmptyBackgroundView!
+    
     override func addMajorViewComponents() {
         super.addMajorViewComponents()
         addCollectionView()
+    }
+    
+    override func setupViewConfigurations() {
+        super.setupViewConfigurations()
+        setupBackgroundView()
+    }
+    
+    private func setupBackgroundView() {
+        emptyView = EmptyBackgroundView(frame: .zero, data: EmptyBackgroundViewData(labelPackData: LabelPackComponentData(title: "Warning", subTitle: "Please login to system to retrive some data from marvel!")))
+        collectionView.backgroundView = emptyView
+    }
+    
+    private func emptyViewActivationControl() {
+        emptyView.activationManager(by: ((delegate?.askNumberOfItem(in: 0) ?? 0) <= 0))
     }
     
     func setupDelegation(with delegate: CharacterCollectionComponentDelegate) {
@@ -61,6 +77,7 @@ class CharacterCollectionView: GenericBaseView<CharacterCollectionViewData> {
     
     func reloadCollectionView() {
         DispatchQueue.main.async {
+            self.emptyViewActivationControl()
             self.collectionView.reloadData()
         }
     }
@@ -73,7 +90,8 @@ extension CharacterCollectionView: UICollectionViewDelegate, UICollectionViewDat
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return delegate?.getItemCount(in: section) ?? 0
+        return delegate?.askNumberOfItem(in: 0) ?? 0
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
