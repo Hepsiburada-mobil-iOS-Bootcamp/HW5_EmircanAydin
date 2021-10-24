@@ -7,6 +7,7 @@
 
 import Foundation
 import FirebaseAuth
+import RxSwift
 
 class AuthenticationManager: AuthenticationManagerProtocol {
     
@@ -14,7 +15,21 @@ class AuthenticationManager: AuthenticationManagerProtocol {
     
     private var toko: BooleanBlock?
     
-    private init() { }
+    private let authSubject = PublishSubject<Bool>()
+    
+    private init() {
+        Auth.auth().addStateDidChangeListener { auth, user in
+            if user != nil {
+                self.authSubject.onNext(true)
+            } else {
+                self.authSubject.onNext(false)
+            }
+        }
+    }
+    
+    func subscribeLoginState(with completion: @escaping BooleanBlock ) -> Disposable {
+        return authSubject.subscribe(onNext: completion)
+    }
     
     func isLoggedIn(with completion: @escaping BooleanBlock) {
         Auth.auth().addStateDidChangeListener { auth, user in
