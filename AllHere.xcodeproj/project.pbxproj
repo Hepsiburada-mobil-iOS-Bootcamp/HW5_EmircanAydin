@@ -77,6 +77,8 @@
 		90B2F81E2720D1C000726A89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F81B2720D1BF00726A89 /* MainViewController.swift */; };
 		90B2F81F2720D1C000726A89 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F81C2720D1BF00726A89 /* MainViewModel.swift */; };
 		90B2F8212720D24B00726A89 /* TabBarImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2F8202720D24B00726A89 /* TabBarImages.swift */; };
+		90E9FD2A27237A3B0075307A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 90E9FD2927237A3B0075307A /* RxSwift */; };
+		90E9FD2D2725C6390075307A /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90E9FD2C2725C6390075307A /* DefaultNetworkOperationPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,7 +178,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E9FD2A27237A3B0075307A /* RxSwift in Frameworks */,
 				90B2F7E02720737F00726A89 /* BaseComponents in Frameworks */,
+				90E9FD2D2725C6390075307A /* DefaultNetworkOperationPackage in Frameworks */,
 				90B2F80F2720CDD400726A89 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +539,8 @@
 			packageProductDependencies = (
 				90B2F7DF2720737F00726A89 /* BaseComponents */,
 				90B2F80E2720CDD400726A89 /* FirebaseAuth */,
+				90E9FD2927237A3B0075307A /* RxSwift */,
+				90E9FD2C2725C6390075307A /* DefaultNetworkOperationPackage */,
 			);
 			productName = AllHere;
 			productReference = 90B2F7AB272064AE00726A89 /* AllHere.app */;
@@ -611,6 +617,8 @@
 			packageReferences = (
 				90B2F7DE2720737F00726A89 /* XCRemoteSwiftPackageReference "BaseComponents" */,
 				90B2F80D2720CDD400726A89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				90E9FD2827237A3A0075307A /* XCRemoteSwiftPackageReference "RxSwift" */,
+				90E9FD2B2725C6390075307A /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
 			);
 			productRefGroup = 90B2F7AC272064AE00726A89 /* Products */;
 			projectDirPath = "";
@@ -1088,6 +1096,22 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		90E9FD2827237A3A0075307A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		90E9FD2B2725C6390075307A /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emircanaydin/DefaultNetworkOperationPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1100,6 +1124,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 90B2F80D2720CDD400726A89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		90E9FD2927237A3B0075307A /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90E9FD2827237A3A0075307A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		90E9FD2C2725C6390075307A /* DefaultNetworkOperationPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90E9FD2B2725C6390075307A /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
+			productName = DefaultNetworkOperationPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -7,11 +7,13 @@
 
 import Foundation
 import BaseComponents
+import RxSwift
 
 typealias AccountViewState = (ViewState) -> Void
 
 class AccountViewModel {
     
+    private let disposeBag = DisposeBag()
     private let formatter: AccountViewDataProtocol
     private let authenticationManager: AuthenticationManagerProtocol
     
@@ -39,7 +41,12 @@ class AccountViewModel {
     
     // MARK: - PrivateMethods
     private func subscribeAuthenticationManager() {
-        authenticationManager.isLoggedIn(with: isLoggedInListener)
+        //authenticationManager.isLoggedIn(with: isLoggedInListener)
+        state?(.loading)
+        authenticationManager.subscribeLoginState { userState in
+            self.data = self.formatter.getAccountViewComponentData(by: userState)
+            self.state?(.done)
+        }.disposed(by: disposeBag)
     }
     
     private func loggedInListenerHandler(with value: Bool) {
