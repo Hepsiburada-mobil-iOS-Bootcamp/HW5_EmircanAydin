@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class CharacterCardLabelPackComponent: GenericBaseView<CharacterCardLabelPackData> {
     

@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import BaseComponents
 
 class CharacterCardData: GenericDataProtocol {
-
+    
+    var type: GenericRowType?
+    
     private(set) var imageData: CustomImageViewComponentData
     private(set) var labelPackData: CharacterCardLabelPackData
     

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import BaseComponents
 
 protocol CharacterCollectionComponentDelegate: AnyObject {
     

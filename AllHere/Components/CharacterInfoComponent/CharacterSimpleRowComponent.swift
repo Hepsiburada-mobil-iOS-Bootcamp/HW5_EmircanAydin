@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class CharacterSimpleRowComponent: GenericBaseView<CharacterSimpleRowData> {
     
@@ -24,7 +25,7 @@ class CharacterSimpleRowComponent: GenericBaseView<CharacterSimpleRowData> {
         temp.text = " "
         temp.contentMode = .left
         temp.textAlignment = .left
-        temp.font = FontManager.medium(18).value
+        temp.font = MainFont.medium(18).value
         return temp
     }()
     

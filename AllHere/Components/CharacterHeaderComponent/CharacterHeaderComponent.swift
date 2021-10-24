@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class CharacterHeaderComponent: GenericBaseView<CharacterHeaderData> {
     
@@ -26,7 +27,7 @@ class CharacterHeaderComponent: GenericBaseView<CharacterHeaderData> {
         temp.textAlignment = .left
         temp.lineBreakMode = .byWordWrapping
         temp.numberOfLines = 0
-        temp.font = FontManager.bold(24).value
+        temp.font = MainFont.bold(24).value
         return temp
     }()
     

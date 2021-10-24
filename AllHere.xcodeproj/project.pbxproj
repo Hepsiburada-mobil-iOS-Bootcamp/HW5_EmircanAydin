@@ -30,6 +30,7 @@
 		900088712725DB68005FEBAC /* CharacterLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885D2725DB68005FEBAC /* CharacterLocationData.swift */; };
 		900088722725DB68005FEBAC /* CharacterHeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */; };
 		900088732725DB68005FEBAC /* CharacterHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */; };
+		900088752725DD87005FEBAC /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088742725DD87005FEBAC /* UICollectionView+Extensions.swift */; };
 		9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */; };
 		9098F23E2722DEAB00B658E6 /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */; };
 		9098F23F2722DEAB00B658E6 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21D2722DEAA00B658E6 /* ActionButton.swift */; };
@@ -168,6 +169,7 @@
 		9000885D2725DB68005FEBAC /* CharacterLocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterLocationData.swift; sourceTree = "<group>"; };
 		9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterHeaderData.swift; sourceTree = "<group>"; };
 		900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterHeaderComponent.swift; sourceTree = "<group>"; };
+		900088742725DD87005FEBAC /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
 		9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
 		9098F21D2722DEAA00B658E6 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
@@ -550,6 +552,7 @@
 			children = (
 				900088382725D750005FEBAC /* UIApplication+Extension.swift */,
 				9098F25F2722E02200B658E6 /* UIView+Extensions.swift */,
+				900088742725DD87005FEBAC /* UICollectionView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1097,6 +1100,7 @@
 				9098F2472722DEAB00B658E6 /* LabelPackComponent.swift in Sources */,
 				9000886B2725DB68005FEBAC /* CharacterCollectionViewData.swift in Sources */,
 				9000886C2725DB68005FEBAC /* CharacterCollectionView.swift in Sources */,
+				900088752725DD87005FEBAC /* UICollectionView+Extensions.swift in Sources */,
 				900088652725DB68005FEBAC /* LoadingCellView.swift in Sources */,
 				90B2F81D2720D1BF00726A89 /* MainViewBuilder.swift in Sources */,
 				9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */,

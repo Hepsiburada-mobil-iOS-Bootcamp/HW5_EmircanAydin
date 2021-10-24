@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import BaseComponents
 
 class CharacterCollectionViewCell: GenericCollectionViewCell<GenericDataProtocol, CharacterCardComponent> {
     

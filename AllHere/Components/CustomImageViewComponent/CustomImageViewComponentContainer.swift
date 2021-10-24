@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class CustomImageViewComponentContainer: GenericBaseView<CustomImageViewComponentData> {
     

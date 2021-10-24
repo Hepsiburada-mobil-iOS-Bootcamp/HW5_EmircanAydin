@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseComponents
 
 class CharacterLocationComponent: GenericBaseView<CharacterLocationData> {
     
@@ -34,7 +35,7 @@ class CharacterLocationComponent: GenericBaseView<CharacterLocationData> {
         temp.text = " "
         temp.contentMode = .left
         temp.textAlignment = .left
-        temp.font = FontManager.regular(16).value
+        temp.font = MainFont.regular(16).value
         return temp
     }()
     
@@ -47,7 +48,7 @@ class CharacterLocationComponent: GenericBaseView<CharacterLocationData> {
         temp.textAlignment = .left
         temp.lineBreakMode = .byWordWrapping
         temp.numberOfLines = 0
-        temp.font = FontManager.regular(16).value
+        temp.font = MainFont.regular(16).value
         return temp
     }()
     
