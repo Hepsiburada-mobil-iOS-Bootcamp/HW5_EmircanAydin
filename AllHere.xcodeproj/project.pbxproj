@@ -11,6 +11,25 @@
 		900088402725D78F005FEBAC /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000883B2725D78F005FEBAC /* ImageCacheManager.swift */; };
 		900088412725D78F005FEBAC /* RickAndMortyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000883D2725D78F005FEBAC /* RickAndMortyColor.swift */; };
 		900088422725D78F005FEBAC /* EndpointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000883F2725D78F005FEBAC /* EndpointManager.swift */; };
+		900088612725DB68005FEBAC /* CustomImageViewComponentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088442725DB61005FEBAC /* CustomImageViewComponentContainer.swift */; };
+		900088622725DB68005FEBAC /* CustomImageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088452725DB61005FEBAC /* CustomImageViewComponentData.swift */; };
+		900088632725DB68005FEBAC /* CustomImageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088462725DB61005FEBAC /* CustomImageViewComponent.swift */; };
+		900088642725DB68005FEBAC /* CustomImageLoadingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088472725DB61005FEBAC /* CustomImageLoadingType.swift */; };
+		900088652725DB68005FEBAC /* LoadingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884A2725DB61005FEBAC /* LoadingCellView.swift */; };
+		900088662725DB68005FEBAC /* CharacterSimpleRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884C2725DB65005FEBAC /* CharacterSimpleRowComponent.swift */; };
+		900088672725DB68005FEBAC /* CharacterSimpleRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884D2725DB65005FEBAC /* CharacterSimpleRowData.swift */; };
+		900088682725DB68005FEBAC /* CharacterCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000884F2725DB66005FEBAC /* CharacterCardComponent.swift */; };
+		900088692725DB68005FEBAC /* CharacterCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088502725DB66005FEBAC /* CharacterCardData.swift */; };
+		9000886A2725DB68005FEBAC /* CharacterCollectionComponentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088532725DB67005FEBAC /* CharacterCollectionComponentDelegate.swift */; };
+		9000886B2725DB68005FEBAC /* CharacterCollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088542725DB67005FEBAC /* CharacterCollectionViewData.swift */; };
+		9000886C2725DB68005FEBAC /* CharacterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088552725DB67005FEBAC /* CharacterCollectionView.swift */; };
+		9000886D2725DB68005FEBAC /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088572725DB67005FEBAC /* CharacterCollectionViewCell.swift */; };
+		9000886E2725DB68005FEBAC /* CharacterCardLabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088592725DB67005FEBAC /* CharacterCardLabelPackComponent.swift */; };
+		9000886F2725DB68005FEBAC /* CharacterCardLabelPackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885A2725DB67005FEBAC /* CharacterCardLabelPackData.swift */; };
+		900088702725DB68005FEBAC /* CharacterLocationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885C2725DB68005FEBAC /* CharacterLocationComponent.swift */; };
+		900088712725DB68005FEBAC /* CharacterLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885D2725DB68005FEBAC /* CharacterLocationData.swift */; };
+		900088722725DB68005FEBAC /* CharacterHeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */; };
+		900088732725DB68005FEBAC /* CharacterHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */; };
 		9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */; };
 		9098F23E2722DEAB00B658E6 /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */; };
 		9098F23F2722DEAB00B658E6 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098F21D2722DEAA00B658E6 /* ActionButton.swift */; };
@@ -130,6 +149,25 @@
 		9000883B2725D78F005FEBAC /* ImageCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 		9000883D2725D78F005FEBAC /* RickAndMortyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RickAndMortyColor.swift; sourceTree = "<group>"; };
 		9000883F2725D78F005FEBAC /* EndpointManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointManager.swift; sourceTree = "<group>"; };
+		900088442725DB61005FEBAC /* CustomImageViewComponentContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentContainer.swift; sourceTree = "<group>"; };
+		900088452725DB61005FEBAC /* CustomImageViewComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentData.swift; sourceTree = "<group>"; };
+		900088462725DB61005FEBAC /* CustomImageViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponent.swift; sourceTree = "<group>"; };
+		900088472725DB61005FEBAC /* CustomImageLoadingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageLoadingType.swift; sourceTree = "<group>"; };
+		9000884A2725DB61005FEBAC /* LoadingCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCellView.swift; sourceTree = "<group>"; };
+		9000884C2725DB65005FEBAC /* CharacterSimpleRowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSimpleRowComponent.swift; sourceTree = "<group>"; };
+		9000884D2725DB65005FEBAC /* CharacterSimpleRowData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSimpleRowData.swift; sourceTree = "<group>"; };
+		9000884F2725DB66005FEBAC /* CharacterCardComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCardComponent.swift; sourceTree = "<group>"; };
+		900088502725DB66005FEBAC /* CharacterCardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCardData.swift; sourceTree = "<group>"; };
+		900088532725DB67005FEBAC /* CharacterCollectionComponentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionComponentDelegate.swift; sourceTree = "<group>"; };
+		900088542725DB67005FEBAC /* CharacterCollectionViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewData.swift; sourceTree = "<group>"; };
+		900088552725DB67005FEBAC /* CharacterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionView.swift; sourceTree = "<group>"; };
+		900088572725DB67005FEBAC /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		900088592725DB67005FEBAC /* CharacterCardLabelPackComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCardLabelPackComponent.swift; sourceTree = "<group>"; };
+		9000885A2725DB67005FEBAC /* CharacterCardLabelPackData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCardLabelPackData.swift; sourceTree = "<group>"; };
+		9000885C2725DB68005FEBAC /* CharacterLocationComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterLocationComponent.swift; sourceTree = "<group>"; };
+		9000885D2725DB68005FEBAC /* CharacterLocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterLocationData.swift; sourceTree = "<group>"; };
+		9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterHeaderData.swift; sourceTree = "<group>"; };
+		900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterHeaderComponent.swift; sourceTree = "<group>"; };
 		9098F21B2722DEAA00B658E6 /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
 		9098F21C2722DEAA00B658E6 /* ActionButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
 		9098F21D2722DEAA00B658E6 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
@@ -280,9 +318,116 @@
 			path = EndpointManager;
 			sourceTree = "<group>";
 		};
+		900088432725DB61005FEBAC /* CustomImageViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				900088442725DB61005FEBAC /* CustomImageViewComponentContainer.swift */,
+				900088452725DB61005FEBAC /* CustomImageViewComponentData.swift */,
+				900088462725DB61005FEBAC /* CustomImageViewComponent.swift */,
+				900088472725DB61005FEBAC /* CustomImageLoadingType.swift */,
+			);
+			path = CustomImageViewComponent;
+			sourceTree = "<group>";
+		};
+		900088482725DB61005FEBAC /* LoadingViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				900088492725DB61005FEBAC /* CellLoadingComponent */,
+			);
+			path = LoadingViewComponents;
+			sourceTree = "<group>";
+		};
+		900088492725DB61005FEBAC /* CellLoadingComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9000884A2725DB61005FEBAC /* LoadingCellView.swift */,
+			);
+			path = CellLoadingComponent;
+			sourceTree = "<group>";
+		};
+		9000884B2725DB65005FEBAC /* CharacterInfoComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9000884C2725DB65005FEBAC /* CharacterSimpleRowComponent.swift */,
+				9000884D2725DB65005FEBAC /* CharacterSimpleRowData.swift */,
+			);
+			path = CharacterInfoComponent;
+			sourceTree = "<group>";
+		};
+		9000884E2725DB66005FEBAC /* CharacterCardComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9000884F2725DB66005FEBAC /* CharacterCardComponent.swift */,
+				900088502725DB66005FEBAC /* CharacterCardData.swift */,
+			);
+			path = CharacterCardComponent;
+			sourceTree = "<group>";
+		};
+		900088512725DB67005FEBAC /* CharacterCollectionComponents */ = {
+			isa = PBXGroup;
+			children = (
+				900088522725DB67005FEBAC /* MainComponents */,
+				900088562725DB67005FEBAC /* CellComponents */,
+			);
+			path = CharacterCollectionComponents;
+			sourceTree = "<group>";
+		};
+		900088522725DB67005FEBAC /* MainComponents */ = {
+			isa = PBXGroup;
+			children = (
+				900088532725DB67005FEBAC /* CharacterCollectionComponentDelegate.swift */,
+				900088542725DB67005FEBAC /* CharacterCollectionViewData.swift */,
+				900088552725DB67005FEBAC /* CharacterCollectionView.swift */,
+			);
+			path = MainComponents;
+			sourceTree = "<group>";
+		};
+		900088562725DB67005FEBAC /* CellComponents */ = {
+			isa = PBXGroup;
+			children = (
+				900088572725DB67005FEBAC /* CharacterCollectionViewCell.swift */,
+			);
+			path = CellComponents;
+			sourceTree = "<group>";
+		};
+		900088582725DB67005FEBAC /* CharacterLabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				900088592725DB67005FEBAC /* CharacterCardLabelPackComponent.swift */,
+				9000885A2725DB67005FEBAC /* CharacterCardLabelPackData.swift */,
+			);
+			path = CharacterLabelPackComponent;
+			sourceTree = "<group>";
+		};
+		9000885B2725DB68005FEBAC /* CharacterLocationComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9000885C2725DB68005FEBAC /* CharacterLocationComponent.swift */,
+				9000885D2725DB68005FEBAC /* CharacterLocationData.swift */,
+			);
+			path = CharacterLocationComponent;
+			sourceTree = "<group>";
+		};
+		9000885E2725DB68005FEBAC /* CharacterHeaderComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9000885F2725DB68005FEBAC /* CharacterHeaderData.swift */,
+				900088602725DB68005FEBAC /* CharacterHeaderComponent.swift */,
+			);
+			path = CharacterHeaderComponent;
+			sourceTree = "<group>";
+		};
 		9098F2192722DEAA00B658E6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9000884E2725DB66005FEBAC /* CharacterCardComponent */,
+				900088512725DB67005FEBAC /* CharacterCollectionComponents */,
+				9000885E2725DB68005FEBAC /* CharacterHeaderComponent */,
+				9000884B2725DB65005FEBAC /* CharacterInfoComponent */,
+				900088582725DB67005FEBAC /* CharacterLabelPackComponent */,
+				9000885B2725DB68005FEBAC /* CharacterLocationComponent */,
+				900088432725DB61005FEBAC /* CustomImageViewComponent */,
+				900088482725DB61005FEBAC /* LoadingViewComponents */,
 				9098F21A2722DEAA00B658E6 /* ActionButtonComponent */,
 				9098F21F2722DEAA00B658E6 /* LoginAuthenticationComponent */,
 				9098F2222722DEAA00B658E6 /* EmailLoginComponent */,
@@ -948,7 +1093,11 @@
 				900088412725D78F005FEBAC /* RickAndMortyColor.swift in Sources */,
 				9098F2532722DEAB00B658E6 /* PageViewComponent.swift in Sources */,
 				9098F2492722DEAB00B658E6 /* ItemTableViewCell.swift in Sources */,
+				900088702725DB68005FEBAC /* CharacterLocationComponent.swift in Sources */,
 				9098F2472722DEAB00B658E6 /* LabelPackComponent.swift in Sources */,
+				9000886B2725DB68005FEBAC /* CharacterCollectionViewData.swift in Sources */,
+				9000886C2725DB68005FEBAC /* CharacterCollectionView.swift in Sources */,
+				900088652725DB68005FEBAC /* LoadingCellView.swift in Sources */,
 				90B2F81D2720D1BF00726A89 /* MainViewBuilder.swift in Sources */,
 				9098F24D2722DEAB00B658E6 /* ItemListView.swift in Sources */,
 				90E9FD7A2725CFE60075307A /* RMCharacterLocationModel.swift in Sources */,
@@ -956,13 +1105,17 @@
 				90E9FD3B2725CDD70075307A /* AtomicValue.swift in Sources */,
 				90E9FD752725CFE60075307A /* CharacterListRequestModel.swift in Sources */,
 				90E9FD512725CF950075307A /* CharacterListOperationsProtocol.swift in Sources */,
+				900088672725DB68005FEBAC /* CharacterSimpleRowData.swift in Sources */,
 				9098F26C2722EFAE00B658E6 /* AccountViewController.swift in Sources */,
 				90E9FD782725CFE60075307A /* RMCharacterOriginModel.swift in Sources */,
+				900088692725DB68005FEBAC /* CharacterCardData.swift in Sources */,
 				9098F2672722E2EC00B658E6 /* SFSymbolsHelper.swift in Sources */,
 				9098F27E2722F5F800B658E6 /* LoginViewModel.swift in Sources */,
 				9098F24F2722DEAB00B658E6 /* TextFieldViewData.swift in Sources */,
 				9098F2852722F67300B658E6 /* MainTabBarController.swift in Sources */,
 				90B2F806272074E500726A89 /* FontManager.swift in Sources */,
+				900088642725DB68005FEBAC /* CustomImageLoadingType.swift in Sources */,
+				9000886E2725DB68005FEBAC /* CharacterCardLabelPackComponent.swift in Sources */,
 				90B2F80A2720755E00726A89 /* BackgroundImages.swift in Sources */,
 				90E9FD422725CE610075307A /* ApiCallListenerManager.swift in Sources */,
 				900088402725D78F005FEBAC /* ImageCacheManager.swift in Sources */,
@@ -975,6 +1128,7 @@
 				9098F2632722E27300B658E6 /* AccountViewDataProtocol.swift in Sources */,
 				9098F2602722E02200B658E6 /* UIView+Extensions.swift in Sources */,
 				90E9FD632725CFC00075307A /* Pagination.swift in Sources */,
+				900088622725DB68005FEBAC /* CustomImageViewComponentData.swift in Sources */,
 				9098F2412722DEAB00B658E6 /* LoginAuthenticationViewData.swift in Sources */,
 				9098F2542722DEAB00B658E6 /* PageViewComponentData.swift in Sources */,
 				90E9FD342725CDB20075307A /* LottieManagerProtocol.swift in Sources */,
@@ -992,21 +1146,31 @@
 				90E9FD742725CFE60075307A /* CharacterRequestModel.swift in Sources */,
 				9098F2652722E2A900B658E6 /* AccountViewDataFormatter.swift in Sources */,
 				9098F24C2722DEAB00B658E6 /* ItemListProtocol.swift in Sources */,
+				900088732725DB68005FEBAC /* CharacterHeaderComponent.swift in Sources */,
 				9098F24E2722DEAB00B658E6 /* TextFieldView.swift in Sources */,
+				900088682725DB68005FEBAC /* CharacterCardComponent.swift in Sources */,
 				9098F2582722DEB700B658E6 /* ViewState.swift in Sources */,
 				90E9FD542725CF950075307A /* CharacterListRequestServiceProvider.swift in Sources */,
 				90E9FD3F2725CDFD0075307A /* LottieViewController.swift in Sources */,
 				90E9FD772725CFE60075307A /* CharacterResponseModel.swift in Sources */,
 				90E9FD522725CF950075307A /* CharacterListOperationsManager.swift in Sources */,
+				900088722725DB68005FEBAC /* CharacterHeaderData.swift in Sources */,
+				9000886F2725DB68005FEBAC /* CharacterCardLabelPackData.swift in Sources */,
+				900088632725DB68005FEBAC /* CustomImageViewComponent.swift in Sources */,
+				900088712725DB68005FEBAC /* CharacterLocationData.swift in Sources */,
+				900088662725DB68005FEBAC /* CharacterSimpleRowComponent.swift in Sources */,
 				9098F23D2722DEAB00B658E6 /* ActionButtonType.swift in Sources */,
 				90B2F8142720CF7B00726A89 /* AuthenticationManagerProtocol.swift in Sources */,
 				90E9FD622725CFC00075307A /* LocationTitle.swift in Sources */,
 				9098F2502722DEAB00B658E6 /* HeaderView.swift in Sources */,
 				90B2F7E42720740100726A89 /* SplashViewModel.swift in Sources */,
 				9098F2402722DEAB00B658E6 /* ActionButtonTheme.swift in Sources */,
+				9000886A2725DB68005FEBAC /* CharacterCollectionComponentDelegate.swift in Sources */,
 				900088422725D78F005FEBAC /* EndpointManager.swift in Sources */,
 				90B2F7B3272064AE00726A89 /* ViewController.swift in Sources */,
+				900088612725DB68005FEBAC /* CustomImageViewComponentContainer.swift in Sources */,
 				9098F2442722DEAB00B658E6 /* EmailLoginViewData.swift in Sources */,
+				9000886D2725DB68005FEBAC /* CharacterCollectionViewCell.swift in Sources */,
 				9098F2422722DEAB00B658E6 /* LoginAuthenticationView.swift in Sources */,
 				9098F2802722F5F800B658E6 /* LoginViewController.swift in Sources */,
 				9098F26E2722F18700B658E6 /* AccountViewBuilder.swift in Sources */,
